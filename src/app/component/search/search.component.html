@@ -1,0 +1,7 @@
+
+
+<div class="form-header">
+  <!-- for keyup meaning while search it will work without it -->
+  <input #userInput type="text"  (keyup)="searching(userInput.value)" placeholder="Search" class="au-input au-input-xl"/>
+  <button (click)="searching(userInput.value)" class="au-btn-submit">Search</button>
+</div>
